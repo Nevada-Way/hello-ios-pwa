@@ -41,11 +41,13 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# environment
-.env
-
 # Environment
 .env
+
+# Capacitor
+ios/
+android/
+
 
 # Miscelanius
 /trashbin

@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ngbase-pwa-fb' title`, () => {
+  it(`should have the 'hello-ios' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ngbase-pwa-fb');
+    expect(app.title).toEqual('hello-ios');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ngbase-pwa-fb');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, hello-ios'
+    );
   });
 });

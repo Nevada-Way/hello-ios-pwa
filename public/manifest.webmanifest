@@ -1,6 +1,6 @@
 {
-  "name": "ngbase-pwa-fb",
-  "short_name": "ngbase-pwa-fb",
+  "name": "hello-ios",
+  "short_name": "hello-ios",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngbase-pwa-fb": {
+    "hello-ios": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@ngx-env/builder:application",
           "options": {
-            "outputPath": "dist/ngbase-pwa-fb",
+            "outputPath": "dist/hello-ios",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -70,13 +70,13 @@
           "builder": "@ngx-env/builder:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ngbase-pwa-fb:build:production"
+              "buildTarget": "hello-ios:build:production"
             },
             "development": {
-              "buildTarget": "ngbase-pwa-fb:build:development"
+              "buildTarget": "hello-ios:build:development"
             },
             "test": {
-              "buildTarget": "ngbase-pwa-fb:build:test"
+              "buildTarget": "hello-ios:build:test"
             }
           },
           "defaultConfiguration": "development",

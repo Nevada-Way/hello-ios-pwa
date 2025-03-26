@@ -10,7 +10,7 @@ import { environment } from '../environments/environment';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'ngbase-pwa-fb';
+  title = 'Hello iOS Android PWA';
   environment1 = environment.currentBuildVersion;
 
   constructor(private swUpdate: SwUpdate) {}
